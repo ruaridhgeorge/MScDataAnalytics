@@ -1,0 +1,37 @@
+
+Comparing models on fold 1
+2020-03-09 17:34:03 WARN  BLAS:61 - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2020-03-09 17:34:03 WARN  BLAS:61 - Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2020-03-09 17:34:05 WARN  LAPACK:61 - Failed to load implementation from: com.github.fommil.netlib.NativeSystemLAPACK
+2020-03-09 17:34:05 WARN  LAPACK:61 - Failed to load implementation from: com.github.fommil.netlib.NativeRefLAPACK
+params: {'maxIter': 5, 'regParam': 0.1} rmse: 0.813669  avg: 0.813669
+params: {'maxIter': 5, 'regParam': 1}   rmse: 1.321131  avg: 1.321131
+params: {'maxIter': 15, 'regParam': 0.1}        rmse: 0.805406  avg: 0.805406
+params: {'maxIter': 15, 'regParam': 1}  rmse: 1.322098  avg: 1.322098
+Comparing models on fold 2
+params: {'maxIter': 5, 'regParam': 0.1} rmse: 0.814182  avg: 0.813925
+params: {'maxIter': 5, 'regParam': 1}   rmse: 1.321114  avg: 1.321122
+params: {'maxIter': 15, 'regParam': 0.1}        rmse: 0.805142  avg: 0.805274
+params: {'maxIter': 15, 'regParam': 1}  rmse: 1.322332  avg: 1.322215
+Comparing models on fold 3
+params: {'maxIter': 5, 'regParam': 0.1} rmse: 0.814244  avg: 0.814032
+params: {'maxIter': 5, 'regParam': 1}   rmse: 1.320309  avg: 1.320851
+params: {'maxIter': 15, 'regParam': 0.1}        rmse: 0.805215  avg: 0.805254
+params: {'maxIter': 15, 'regParam': 1}  rmse: 1.321640  avg: 1.322023
+Best model:
+params: {'maxIter': 15, 'regParam': 0.1}        rmse: 0.805254
+Comparing models on fold 1
+params: {'maxIter': 5, 'regParam': 0.1} mae: 0.630167   avg: 0.630167
+params: {'maxIter': 5, 'regParam': 1}   mae: 1.151708   avg: 1.151708
+params: {'maxIter': 15, 'regParam': 0.1}        mae: 0.621869   avg: 0.621869
+params: {'maxIter': 15, 'regParam': 1}  mae: 1.152662   avg: 1.152662
+Comparing models on fold 2
+params: {'maxIter': 5, 'regParam': 0.1} mae: 0.630759   avg: 0.630463
+params: {'maxIter': 5, 'regParam': 1}   mae: 1.151823   avg: 1.151766
+params: {'maxIter': 15, 'regParam': 0.1}        mae: 0.621787   avg: 0.621828
+params: {'maxIter': 15, 'regParam': 1}  mae: 1.153033   avg: 1.152848
+Comparing models on fold 3
+params: {'maxIter': 5, 'regParam': 0.1} mae: 0.631057   avg: 0.630661
+params: {'maxIter': 5, 'regParam': 1}   mae: 1.150978   avg: 1.151503
+params: {'maxIter': 15, 'regParam': 0.1} mae: 0.621433   avg: 0.630661
+params: {'maxIter': 15, 'regParam': 1}   mae: 1.150091   avg: 1.152513

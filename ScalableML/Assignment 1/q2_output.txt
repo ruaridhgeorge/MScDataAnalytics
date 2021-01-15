@@ -1,0 +1,163 @@
+Conda uses environments to load different sets of Python packages
+type conda env list to see the environments availible.
+2020-03-10 20:50:34 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2020-03-10 20:50:38 INFO  SparkContext:54 - Running Spark version 2.3.2
+2020-03-10 20:50:38 WARN  SparkConf:66 - In Spark 1.0 and later spark.local.dir will be overridden by the value set by the cluster manager (via SPARK_LOCAL_DIRS in mesos/standalone and LOCAL_DIRS in YARN).
+2020-03-10 20:50:38 INFO  SparkContext:54 - Submitted application: COM6012
+2020-03-10 20:50:38 INFO  SecurityManager:54 - Changing view acls to: acq19rg
+2020-03-10 20:50:38 INFO  SecurityManager:54 - Changing modify acls to: acq19rg
+2020-03-10 20:50:38 INFO  SecurityManager:54 - Changing view acls groups to: 
+2020-03-10 20:50:38 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2020-03-10 20:50:38 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(acq19rg); groups with view permissions: Set(); users  with modify permissions: Set(acq19rg); groups with modify permissions: Set()
+2020-03-10 20:50:38 INFO  Utils:54 - Successfully started service 'sparkDriver' on port 37635.
+2020-03-10 20:50:38 INFO  SparkEnv:54 - Registering MapOutputTracker
+2020-03-10 20:50:38 INFO  SparkEnv:54 - Registering BlockManagerMaster
+2020-03-10 20:50:38 INFO  BlockManagerMasterEndpoint:54 - Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+2020-03-10 20:50:38 INFO  BlockManagerMasterEndpoint:54 - BlockManagerMasterEndpoint up
+2020-03-10 20:50:38 INFO  DiskBlockManager:54 - Created local directory at /mnt/fastdata/acq19rg/blockmgr-b7a2a34a-085a-411a-a6b1-d6d015e7e296
+2020-03-10 20:50:38 INFO  MemoryStore:54 - MemoryStore started with capacity 15.8 GB
+2020-03-10 20:50:38 INFO  SparkEnv:54 - Registering OutputCommitCoordinator
+2020-03-10 20:50:39 INFO  log:192 - Logging initialized @5998ms
+2020-03-10 20:50:39 INFO  Server:351 - jetty-9.3.z-SNAPSHOT, build timestamp: unknown, git hash: unknown
+2020-03-10 20:50:39 INFO  Server:419 - Started @6091ms
+2020-03-10 20:50:39 INFO  AbstractConnector:278 - Started ServerConnector@237fba97{HTTP/1.1,[http/1.1]}{0.0.0.0:4040}
+2020-03-10 20:50:39 INFO  Utils:54 - Successfully started service 'SparkUI' on port 4040.
+2020-03-10 20:50:39 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@634b7f11{/jobs,null,AVAILABLE,@Spark}
+2020-03-10 20:50:39 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@7077e448{/jobs/json,null,AVAILABLE,@Spark}
+2020-03-10 20:50:39 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5519d16b{/jobs/job,null,AVAILABLE,@Spark}
+2020-03-10 20:50:39 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@725a35b9{/jobs/job/json,null,AVAILABLE,@Spark}
+2020-03-10 20:50:39 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3dc0da1e{/stages,null,AVAILABLE,@Spark}
+2020-03-10 20:50:39 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@26c9c644{/stages/json,null,AVAILABLE,@Spark}
+2020-03-10 20:50:39 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@35b7b02e{/stages/stage,null,AVAILABLE,@Spark}
+2020-03-10 20:50:39 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@455b8c2f{/stages/stage/json,null,AVAILABLE,@Spark}
+2020-03-10 20:50:39 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4d65726a{/stages/pool,null,AVAILABLE,@Spark}
+2020-03-10 20:50:39 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@46eb3256{/stages/pool/json,null,AVAILABLE,@Spark}
+2020-03-10 20:50:39 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@2f6be70b{/storage,null,AVAILABLE,@Spark}
+2020-03-10 20:50:39 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@36c82c3d{/storage/json,null,AVAILABLE,@Spark}
+2020-03-10 20:50:39 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5058eeac{/storage/rdd,null,AVAILABLE,@Spark}
+2020-03-10 20:50:39 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@4fbe0f73{/storage/rdd/json,null,AVAILABLE,@Spark}
+2020-03-10 20:50:39 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@3f9dea30{/environment,null,AVAILABLE,@Spark}
+2020-03-10 20:50:39 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@48c3803a{/environment/json,null,AVAILABLE,@Spark}
+2020-03-10 20:50:39 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5ff93a00{/executors,null,AVAILABLE,@Spark}
+2020-03-10 20:50:39 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6083731b{/executors/json,null,AVAILABLE,@Spark}
+2020-03-10 20:50:39 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@309fd951{/executors/threadDump,null,AVAILABLE,@Spark}
+2020-03-10 20:50:39 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@64895d28{/executors/threadDump/json,null,AVAILABLE,@Spark}
+2020-03-10 20:50:39 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@72b64283{/static,null,AVAILABLE,@Spark}
+2020-03-10 20:50:39 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@496ac2ce{/,null,AVAILABLE,@Spark}
+2020-03-10 20:50:39 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5ce2091c{/api,null,AVAILABLE,@Spark}
+2020-03-10 20:50:39 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@37483b99{/jobs/job/kill,null,AVAILABLE,@Spark}
+2020-03-10 20:50:39 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@659b9b82{/stages/stage/kill,null,AVAILABLE,@Spark}
+2020-03-10 20:50:39 INFO  SparkUI:54 - Bound SparkUI to 0.0.0.0, and started at http://sharc-node149.shef.ac.uk:4040
+2020-03-10 20:50:39 INFO  SparkContext:54 - Added file file:/home/acq19rg/ScalableML/Q2_code.py at file:/home/acq19rg/ScalableML/Q2_code.py with timestamp 1583873439654
+2020-03-10 20:50:39 INFO  Utils:54 - Copying /home/acq19rg/ScalableML/Q2_code.py to /mnt/fastdata/acq19rg/spark-e164cb5f-58c7-4bc9-9ce7-93e8c19f5d93/userFiles-6d3bc91d-772e-49d1-8323-de64b6af6840/Q2_code.py
+2020-03-10 20:50:39 INFO  Executor:54 - Starting executor ID driver on host localhost
+2020-03-10 20:50:39 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 43534.
+2020-03-10 20:50:39 INFO  NettyBlockTransferService:54 - Server created on sharc-node149.shef.ac.uk:43534
+2020-03-10 20:50:39 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2020-03-10 20:50:39 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(driver, sharc-node149.shef.ac.uk, 43534, None)
+2020-03-10 20:50:39 INFO  BlockManagerMasterEndpoint:54 - Registering block manager sharc-node149.shef.ac.uk:43534 with 15.8 GB RAM, BlockManagerId(driver, sharc-node149.shef.ac.uk, 43534, None)
+2020-03-10 20:50:39 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(driver, sharc-node149.shef.ac.uk, 43534, None)
+2020-03-10 20:50:39 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(driver, sharc-node149.shef.ac.uk, 43534, None)
+2020-03-10 20:50:39 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@260b0d21{/metrics/json,null,AVAILABLE,@Spark}
+2020-03-10 20:50:40 INFO  SharedState:54 - Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir ('file:/home/acq19rg/spark-warehouse/').
+2020-03-10 20:50:40 INFO  SharedState:54 - Warehouse path is 'file:/home/acq19rg/spark-warehouse/'.
+2020-03-10 20:50:40 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1cd3f770{/SQL,null,AVAILABLE,@Spark}
+2020-03-10 20:50:40 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@79753b77{/SQL/json,null,AVAILABLE,@Spark}
+2020-03-10 20:50:40 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1eb2af34{/SQL/execution,null,AVAILABLE,@Spark}
+2020-03-10 20:50:40 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@1e5dfaad{/SQL/execution/json,null,AVAILABLE,@Spark}
+2020-03-10 20:50:40 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@632f98d0{/static/sql,null,AVAILABLE,@Spark}
+2020-03-10 20:50:40 INFO  StateStoreCoordinatorRef:54 - Registered StateStoreCoordinator endpoint
+
+Question 2A
+Comparing models on fold 1
+
+2020-03-10 20:51:11 WARN  BLAS:61 - Failed to load implementation from: com.github.fommil.netlib.NativeSystemBLAS
+2020-03-10 20:51:11 WARN  BLAS:61 - Failed to load implementation from: com.github.fommil.netlib.NativeRefBLAS
+2020-03-10 20:51:12 WARN  LAPACK:61 - Failed to load implementation from: com.github.fommil.netlib.NativeSystemLAPACK
+2020-03-10 20:51:12 WARN  LAPACK:61 - Failed to load implementation from: com.github.fommil.netlib.NativeRefLAPACK
+params: {'maxIter': 5, 'regParam': 0.1}	rmse: 0.813688	avg: 0.813688
+params: {'maxIter': 5, 'regParam': 1}	rmse: 1.321202	avg: 1.321202
+params: {'maxIter': 15, 'regParam': 0.1}	rmse: 0.805194	avg: 0.805194
+params: {'maxIter': 15, 'regParam': 1}	rmse: 1.322290	avg: 1.322290
+Comparing models on fold 2
+params: {'maxIter': 5, 'regParam': 0.1}	rmse: 0.813379	avg: 0.813534
+params: {'maxIter': 5, 'regParam': 1}	rmse: 1.320967	avg: 1.321085
+params: {'maxIter': 15, 'regParam': 0.1}	rmse: 0.804955	avg: 0.805074
+params: {'maxIter': 15, 'regParam': 1}	rmse: 1.321997	avg: 1.322144
+Comparing models on fold 3
+params: {'maxIter': 5, 'regParam': 0.1}	rmse: 0.815001	avg: 0.814023
+params: {'maxIter': 5, 'regParam': 1}	rmse: 1.320327	avg: 1.320832
+params: {'maxIter': 15, 'regParam': 0.1}	rmse: 0.805476	avg: 0.805208
+params: {'maxIter': 15, 'regParam': 1}	rmse: 1.321720	avg: 1.322002
+Best model:
+params: {'maxIter': 15, 'regParam': 0.1}	rmse: 0.805208
+Comparing models on fold 1
+params: {'maxIter': 5, 'regParam': 0.1}	mae: 0.630349	avg: 0.630349
+params: {'maxIter': 5, 'regParam': 1}	mae: 1.151922	avg: 1.151922
+params: {'maxIter': 15, 'regParam': 0.1}	mae: 0.621830	avg: 0.621830
+params: {'maxIter': 15, 'regParam': 1}	mae: 1.153000	avg: 1.153000
+Comparing models on fold 2
+params: {'maxIter': 5, 'regParam': 0.1}	mae: 0.630045	avg: 0.630197
+params: {'maxIter': 5, 'regParam': 1}	mae: 1.151715	avg: 1.151818
+params: {'maxIter': 15, 'regParam': 0.1}	mae: 0.621603	avg: 0.621716
+params: {'maxIter': 15, 'regParam': 1}	mae: 1.152733	avg: 1.152867
+Comparing models on fold 3
+params: {'maxIter': 5, 'regParam': 0.1}	mae: 0.631608	avg: 0.630667
+params: {'maxIter': 5, 'regParam': 1}	mae: 1.150816	avg: 1.151484
+params: {'maxIter': 15, 'regParam': 0.1}	mae: 0.622116	avg: 0.621850
+params: {'maxIter': 15, 'regParam': 1}	mae: 1.152200	avg: 1.152645
+Best model:
+params: {'maxIter': 15, 'regParam': 0.1}	mae: 0.621850
+
+Question 2C
++--------------------+
+|            features|
++--------------------+
+|[1.0,296.0,5.0,1....|
+|[1.0,306.0,3.5,1....|
+|[1.0,307.0,5.0,1....|
+|[1.0,665.0,5.0,1....|
+|[1.0,899.0,3.5,1....|
+|[1.0,1088.0,4.0,1...|
+|[1.0,1175.0,3.5,1...|
+|[1.0,1217.0,3.5,1...|
+|[1.0,1237.0,5.0,1...|
+|[1.0,1250.0,4.0,1...|
+|[1.0,1260.0,3.5,1...|
+|[1.0,1653.0,4.0,1...|
+|[1.0,2011.0,2.5,1...|
+|[1.0,2012.0,2.5,1...|
+|[1.0,2068.0,2.5,1...|
+|[1.0,2161.0,3.5,1...|
+|[1.0,2351.0,4.5,1...|
+|[1.0,2573.0,4.0,1...|
+|[1.0,2632.0,5.0,1...|
+|[1.0,2692.0,5.0,1...|
++--------------------+
+only showing top 20 rows
+
++--------------------+----------+
+|            features|prediction|
++--------------------+----------+
+|[1.0,296.0,5.0,1....|        12|
+|[1.0,306.0,3.5,1....|        12|
+|[1.0,307.0,5.0,1....|        12|
+|[1.0,665.0,5.0,1....|        12|
+|[1.0,899.0,3.5,1....|        12|
+|[1.0,1088.0,4.0,1...|        12|
+|[1.0,1175.0,3.5,1...|        12|
+|[1.0,1217.0,3.5,1...|        12|
+|[1.0,1237.0,5.0,1...|        12|
+|[1.0,1250.0,4.0,1...|        12|
+|[1.0,1260.0,3.5,1...|        12|
+|[1.0,1653.0,4.0,1...|        12|
+|[1.0,2011.0,2.5,1...|        12|
+|[1.0,2012.0,2.5,1...|        12|
+|[1.0,2068.0,2.5,1...|        12|
+|[1.0,2161.0,3.5,1...|        12|
+|[1.0,2351.0,4.5,1...|        12|
+|[1.0,2573.0,4.0,1...|        12|
+|[1.0,2632.0,5.0,1...|        12|
+|[1.0,2692.0,5.0,1...|        12|
++--------------------+----------+
+only showing top 20 rows
