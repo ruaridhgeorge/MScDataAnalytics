@@ -4,7 +4,6 @@ Selected works from my Masters degree
 ## Kobe
 * Some exploratory data analysis and predictive modelling on Kobe Bryant's career shots
 * Labels: shot made flag. (1 = shot makes basket, 0 = shot misses)
-* Data set found at www.kaggle.com/c/kobe-bryant-shot-selection
 
 ## NLP
 * Text Classification with Logistic Regression in Python
